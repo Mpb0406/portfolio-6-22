@@ -3,9 +3,8 @@ import Header from "./Components/Header";
 
 function App() {
   return (
-    <div className="App">
+    <div className="h-screen">
       <Header />
-      <h1>My Portfolio</h1>
     </div>
   );
 }

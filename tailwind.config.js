@@ -7,7 +7,11 @@ module.exports = {
       serif: ["Merriweather", "serif"],
       display: ["Yellowtail", "serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        blue: "#33ABD1",
+      },
+    },
   },
   plugins: [],
 };

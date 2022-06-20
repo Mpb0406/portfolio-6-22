@@ -1,6 +1,6 @@
 import React from "react";
 
-const Bio = () => {
+const Bio = ({ children }) => {
   return (
     <div className="bg-blue h-3/4 text-center m-auto relative">
       <div className="mx-3 md:mx-32 py-10">
@@ -11,6 +11,7 @@ const Bio = () => {
           on new challenges and learning new technologies.
         </p>
       </div>
+      {children}
     </div>
   );
 };

@@ -11,6 +11,7 @@ import graphql from "../img/graphql.png";
 import node from "../img/node.png";
 import mongo from "../img/mongo.png";
 import auth0 from "../img/auth0.png";
+import MyWork from "./MyWork";
 
 const Skills = () => {
   return (

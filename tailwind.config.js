@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         blue: "#33ABD1",
       },
+      spacing: {
+        100: "30rem",
+      },
     },
   },
   plugins: [],

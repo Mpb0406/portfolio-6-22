@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.divider::before {
+  content: "";
+  position: absolute;
+  height: 90%;
+  width: 2px;
+  background: gray;
+  top: 0;
+  left: 0%;
+}
+
+.divider::after {
+  content: "";
+  position: absolute;
+  height: 90%;
+  width: 2px;
+  background: gray;
+  top: 0;
+  left: 100%;
+}
+
+@media (max-width: 768px) {
+  .divider::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    background: gray;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .divider::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    background: gray;
+    top: 101%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

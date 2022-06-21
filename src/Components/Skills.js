@@ -14,9 +14,9 @@ import auth0 from "../img/auth0.png";
 
 const Skills = () => {
   return (
-    <div className="absolute top-3/4 left-1/2 -translate-x-1/2 bg-white rounded-md flex gap-x-5 p-3 w-3/4 border-2 shadow-xl">
-      <div className="my-16">
-        <h3 className="text-3xl font-bold text-blue pb-10">Design</h3>
+    <div className="absolute top-3/4 left-1/2 -translate-x-1/2 bg-white rounded-md flex flex-wrap md:flex-nowrap gap-x-5 p-3 w-11/12 md:w-3/4 border-2 shadow-xl">
+      <div className="mt-16">
+        <h3 className="text-3xl font-bold text-blue py-10">Design</h3>
         <p className="px-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero
@@ -35,8 +35,8 @@ const Skills = () => {
           <h3 className="text-xl font-bold mt-8">Adobe Illustrator</h3>
         </div>
       </div>
-      <div className="my-16">
-        <h3 className="text-3xl font-bold text-blue pb-10">Frontend</h3>
+      <div className="mt-16 relative divider">
+        <h3 className="text-3xl font-bold text-blue py-10">Frontend</h3>
         <p className="px-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero
@@ -55,16 +55,16 @@ const Skills = () => {
           <h3 className="text-xl font-bold mt-8">Redux</h3>
         </div>
         <div className="flex flex-col items-center my-32">
-          <img src={tailwind} className="h-24" alt="" />
-          <h3 className="text-xl font-bold mt-8">TailwindCSS</h3>
+          <img src={tailwind} className="h-20" alt="" />
+          <h3 className="text-xl font-bold mt-12">TailwindCSS</h3>
         </div>
-        <div className="flex flex-col items-center my-32">
+        <div className="flex flex-col items-center mt-32 mb-10">
           <img src={sass} className="h-24" alt="" />
           <h3 className="text-xl font-bold mt-8">Sass</h3>
         </div>
       </div>
-      <div className="my-16">
-        <h3 className="text-3xl font-bold text-blue pb-10">Backend</h3>
+      <div className="mt-16">
+        <h3 className="text-3xl font-bold text-blue py-10">Backend</h3>
         <p className="px-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero

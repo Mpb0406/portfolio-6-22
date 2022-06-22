@@ -11,10 +11,8 @@ function App() {
     <div className="h-screen">
       <Header />
       <Hero />
-      <Bio>
-        <Skills />
-      </Bio>
-      <Spacer />
+      <Bio />
+      <Skills />
       <MyWork />
     </div>
   );

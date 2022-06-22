@@ -1,8 +1,9 @@
 import React from "react";
+import Skills from "./Skills";
 
 const Bio = ({ children }) => {
   return (
-    <div className="bg-blue h-3/4 text-center m-auto relative">
+    <div className="bg-blue h-3/4 text-center m-auto">
       <div className="mx-3 md:mx-32 py-10">
         <h3 className="text-4xl font-bold text-white p-5 mb-3">Hi, I'm Mike</h3>
         <p className="text-orange-100 text-xl md:px-20 px-3 leading-relaxed">
@@ -11,7 +12,6 @@ const Bio = ({ children }) => {
           on new challenges and learning new technologies.
         </p>
       </div>
-      {children}
     </div>
   );
 };

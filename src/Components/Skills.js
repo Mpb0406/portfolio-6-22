@@ -15,9 +15,11 @@ import MyWork from "./MyWork";
 
 const Skills = () => {
   return (
-    <div className="absolute top-3/4 left-1/2 -translate-x-1/2 bg-white rounded-md flex flex-wrap md:flex-nowrap gap-x-5 p-3 w-11/12 md:w-3/4 border-2 shadow-xl">
+    <div className="bg-white rounded-md flex flex-wrap md:flex-nowrap gap-x-5 p-3 w-11/12 md:w-3/4 border-2 shadow-xl mx-auto -mt-36">
       <div className="mt-16">
-        <h3 className="text-3xl font-bold text-blue py-10">Design</h3>
+        <h3 className="text-3xl font-bold text-blue py-10 text-center">
+          Design
+        </h3>
         <p className="px-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero
@@ -37,7 +39,9 @@ const Skills = () => {
         </div>
       </div>
       <div className="mt-16 relative divider">
-        <h3 className="text-3xl font-bold text-blue py-10">Frontend</h3>
+        <h3 className="text-3xl font-bold text-blue py-10 text-center">
+          Frontend
+        </h3>
         <p className="px-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero
@@ -65,7 +69,9 @@ const Skills = () => {
         </div>
       </div>
       <div className="mt-16">
-        <h3 className="text-3xl font-bold text-blue py-10">Backend</h3>
+        <h3 className="text-3xl font-bold text-blue py-10 text-center">
+          Backend
+        </h3>
         <p className="px-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero

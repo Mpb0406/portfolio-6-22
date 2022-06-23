@@ -21,13 +21,13 @@ const Header = () => {
           !open && "hidden"
         }`}>
         <li className="my-10 md:my-3 md:mx-5 font-semibold text-xl hover:text-yellow-400 duration-300">
-          <a href="#">About</a>
+          <a href="#bio">About</a>
         </li>
         <li className="my-10 md:my-3 md:mx-5 font-semibold text-xl hover:text-yellow-400 duration-300">
-          <a href="#">Projects</a>
+          <a href="#work">Projects</a>
         </li>
         <li className="my-10 md:my-3 md:mx-5 font-semibold text-xl hover:text-yellow-400 duration-300">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>

@@ -20,7 +20,7 @@ const Skills = () => {
         <h3 className="text-3xl font-bold text-blue py-10 text-center">
           Design
         </h3>
-        <p className="px-5">
+        <p className="px-5 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero
           consectetur.
@@ -42,7 +42,7 @@ const Skills = () => {
         <h3 className="text-3xl font-bold text-blue py-10 text-center">
           Frontend
         </h3>
-        <p className="px-5">
+        <p className="px-5 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero
           consectetur.
@@ -72,7 +72,7 @@ const Skills = () => {
         <h3 className="text-3xl font-bold text-blue py-10 text-center">
           Backend
         </h3>
-        <p className="px-5">
+        <p className="px-5 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
           nisi. Enim sequi ea doloribus blanditiis, eius eos sed libero
           consectetur.

@@ -15,7 +15,7 @@ const MyWork = () => {
             <img
               src={mjar}
               alt=""
-              className="rounded hover:scale-105 duration-300"
+              className="rounded hover:scale-105 duration-500"
             />
           </div>
           <h3 className="text-xl font-bold text-center my-5">MJAR Training</h3>
@@ -27,13 +27,13 @@ const MyWork = () => {
             <a
               href="https://github.com/Mpb0406/MJAR"
               target="_blank"
-              className="cursor-pointer bg-blue hover:bg-cyan-500 duration-300 text-white p-3 rounded">
+              className="cursor-pointer bg-cyan-700 hover:bg-cyan-500 duration-300 text-white p-3 rounded">
               GitHub
             </a>
             <a
               href="https://mjartrainingwebapp.herokuapp.com/"
               target="_blank"
-              className="cursor-pointer w-max bg-yellow-400 hover:bg-yellow-500 duration-300 text-white p-3 rounded">
+              className="cursor-pointer w-max bg-yellow-500 hover:bg-yellow-400 duration-300 text-white p-3 rounded">
               Hosted Site
             </a>
           </div>

@@ -38,7 +38,7 @@ const MyWork = () => {
             </a>
           </div>
         </div>
-        <div className="w-96 mx-auto">
+        {/* <div className="w-96 mx-auto">
           <div className=" bg-yellow-400 p-5 h-60 rounded cursor-pointer mx-3">
             <img src="" alt="" />
           </div>
@@ -47,7 +47,7 @@ const MyWork = () => {
             E-commerce website built with Next.js, Strapi/GraphQL with Stripe
             Payments
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

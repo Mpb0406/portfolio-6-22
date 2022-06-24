@@ -1,12 +1,13 @@
 import React from "react";
-import Skills from "./Skills";
+import "../App.css";
 
 const Bio = () => {
   return (
     <div id="bio" className="bg-blue h-3/4 text-center m-auto">
       <div className="mx-3 md:mx-32 py-16">
         <h3 className="text-4xl md:text-5xl font-bold text-white p-5 mb-3">
-          Hi, I'm <span className="text-yellow-400">Mike</span>
+          Hi, I'm{" "}
+          <span className="bounce text-yellow-400 w-min mx-auto">Mike</span>
         </h3>
         <p className="text-orange-100 text-xl md:px-20 px-3 leading-relaxed">
           I am a fully self-taught full-stack web developer. I enjoy creating

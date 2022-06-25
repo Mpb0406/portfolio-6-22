@@ -29,15 +29,15 @@ const Skills = () => {
           I enjoy building responsive designs that create a frictionless user
           experience. I always start projects with a design.
         </p>
-        <div data-aos="fade-right" className="flex flex-col items-center my-32">
+        <div data-aos="fade-up" className="flex flex-col items-center my-32">
           <img src={figma} className="h-24" alt="" />
           <h3 className="text-xl font-bold mt-8">Figma</h3>
         </div>
-        <div data-aos="fade-right" className="flex flex-col items-center my-32">
+        <div data-aos="fade-up" className="flex flex-col items-center my-32">
           <img src={xd} className="h-24" alt="" />
           <h3 className="text-xl font-bold mt-8">Adobe XD</h3>
         </div>
-        <div data-aos="fade-right" className="flex flex-col items-center my-32">
+        <div data-aos="fade-up" className="flex flex-col items-center my-32">
           <img src={ai} className="h-24" alt="" />
           <h3 className="text-xl font-bold mt-8">Adobe Illustrator</h3>
         </div>
@@ -82,19 +82,19 @@ const Skills = () => {
           I love the challenge of building complex logic. I am comfortable
           building RESTful APIs and have some experience with GraphQL.
         </p>
-        <div data-aos="fade-left" className="flex flex-col items-center my-32">
+        <div data-aos="fade-up" className="flex flex-col items-center my-32">
           <img src={graphql} className="h-24" alt="" />
           <h3 className="text-xl font-bold mt-8">GraphQL</h3>
         </div>
-        <div data-aos="fade-left" className="flex flex-col items-center mt-40">
+        <div data-aos="fade-up" className="flex flex-col items-center mt-40">
           <img src={node} className="w-32" alt="" />
           <h3 className="text-xl font-bold mt-14">Node.JS/Express</h3>
         </div>
-        <div data-aos="fade-left" className="flex flex-col items-center mt-40">
+        <div data-aos="fade-up" className="flex flex-col items-center mt-40">
           <img src={mongo} className="w-32" alt="" />
           <h3 className="text-xl font-bold mt-16 mb-2">MongoDB</h3>
         </div>
-        <div data-aos="fade-left" className="flex flex-col items-center my-32">
+        <div data-aos="fade-up" className="flex flex-col items-center my-32">
           <img src={auth0} className="h-24" alt="" />
           <h3 className="text-xl font-bold mt-6">Auth0</h3>
         </div>

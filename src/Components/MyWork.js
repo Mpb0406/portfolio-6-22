@@ -3,7 +3,7 @@ import mjar from "../img/mjar1.png";
 
 const MyWork = () => {
   return (
-    <section id="work" className="-z-50 relative">
+    <section id="work" className="-z-50 relative w-full">
       <div className="bg-blue -mt-20">
         <h1 className="pt-52 pb-10 text-4xl font-bold md:text-5xl text-white text-center">
           My Recent Work
@@ -25,16 +25,16 @@ const MyWork = () => {
           </p>
           <div id="button-container" className="w-min mx-auto flex gap-5 my-5">
             <a
-              href="https://github.com/Mpb0406/MJAR"
-              target="_blank"
-              className="cursor-pointer bg-cyan-700 hover:bg-cyan-500 duration-300 text-white p-3 rounded">
-              GitHub
-            </a>
-            <a
               href="https://mjartrainingwebapp.herokuapp.com/"
               target="_blank"
-              className="cursor-pointer w-max bg-yellow-500 hover:bg-yellow-400 duration-300 text-white p-3 rounded">
+              className="cursor-pointer w-max self-center bg-yellow-500 hover:bg-yellow-400 duration-300 text-white p-3 rounded">
               Hosted Site
+            </a>
+            <a
+              href="https://github.com/Mpb0406/MJAR"
+              target="_blank"
+              className="cursor-pointer bg-transparent border-[2px] border-blue hover:bg-blue text-blue hover:text-white duration-300 text-white px-3 py-[0.68rem] rounded">
+              GitHub
             </a>
           </div>
         </div>

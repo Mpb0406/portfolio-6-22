@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full transition duration-500 ease bg-blue shadow-md flex flex-col justify-start ${
+      className={`fixed top-0 left-0 w-screen transition duration-500 ease bg-blue shadow-md flex flex-col justify-start ${
         open ? "h-6/8" : "h-20"
       } md:flex-row md:items-center md:justify-between md:h-min duration-700 z-10`}>
       <span className="font-display ml-5 mt-5 mb-10 md:my-5 text-4xl text-white cursor-pointer hover:text-yellow-400 duration-300">

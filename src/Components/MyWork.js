@@ -1,5 +1,6 @@
 import React from "react";
 import mjar from "../img/mjar1.png";
+import debsDesigns from "../img/debs-designs.PNG";
 
 const MyWork = () => {
   return (
@@ -38,6 +39,37 @@ const MyWork = () => {
             </a>
           </div>
         </div>
+
+        <div className="w-96 mx-auto">
+          <div className=" bg-yellow-400 h-min rounded cursor-pointer mx-3">
+            <img
+              src={debsDesigns}
+              alt=""
+              className="rounded hover:scale-105 duration-500"
+            />
+          </div>
+          <h3 className="text-xl font-bold text-center my-5">Deb's Designs</h3>
+          <p className="text-center font-bold text-sm">
+            Full-Stack Ecommerce website built with NextJS on the frontend and
+            Strapi headless CMS on the backend. Stripe payment processing and
+            context API for state management.
+          </p>
+          <div id="button-container" className="w-min mx-auto flex gap-5 my-5">
+            <a
+              href="https://debs-designs.vercel.app/"
+              target="_blank"
+              className="cursor-pointer w-max self-center bg-yellow-500 hover:bg-yellow-400 duration-300 text-white p-3 rounded">
+              Hosted Site
+            </a>
+            <a
+              href="https://github.com/Mpb0406/ecom-site"
+              target="_blank"
+              className="cursor-pointer bg-transparent border-[2px] border-blue hover:bg-blue text-blue hover:text-white duration-300 text-white px-3 py-[0.68rem] rounded">
+              GitHub
+            </a>
+          </div>
+        </div>
+
         {/* <div className="w-96 mx-auto">
           <div className=" bg-yellow-400 p-5 h-60 rounded cursor-pointer mx-3">
             <img src="" alt="" />

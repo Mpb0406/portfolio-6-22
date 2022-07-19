@@ -10,9 +10,13 @@ const Bio = () => {
           <span className="bounce text-yellow-400 w-min mx-auto">Mike</span>
         </h3>
         <p className="text-orange-100 text-xl md:px-20 px-3 leading-relaxed">
-          I am a fully self-taught full-stack web developer. I enjoy creating
-          clean designs and bringing them to life with a great user experience.
-          I love taking on new challenges and learning new technologies.
+          I am a fully self-taught{" "}
+          <span className="text-3xl font-bold text-yellow-400">
+            full-stack web developer
+          </span>
+          . I enjoy creating clean designs and bringing them to life with a
+          great user experience. I love taking on new challenges and learning
+          new technologies.
         </p>
       </div>
     </div>
